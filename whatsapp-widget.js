@@ -15,7 +15,7 @@ let paramsDefault = {
     },
     optionsBot: {
         name: 'YoEmprendo Bot',
-        image: 'images/bot.jpg',
+        image: 'images/bot.webp',
         messageDefault: 'Hola, 👋 ¿en qué puedo ayudarte?',
         messageTyping: 'está escribiendo...'
     }
