@@ -15,7 +15,7 @@ let paramsDefault = {
     },
     optionsBot: {
         name: 'YoEmprendo Bot',
-        image: 'images/bot.png',
+        image: 'images/bot.jpg',
         messageDefault: 'Hola, 👋 ¿en qué puedo ayudarte?',
         messageTyping: 'está escribiendo...'
     }
@@ -44,7 +44,7 @@ function createElements(params) {
         paramsDefault = params;
 
     const strTarget = ` <a href="#" id="whatsapp-widget-target" class="whatsapp-widget-target pulse">
-    <img id="whatsapp-widget-icon" class="whatsapp-widget-icon" style="width:30px" src="images/WhatsApp-icone.png"/>
+    <img id="whatsapp-widget-icon" class="whatsapp-widget-icon" style="width:30px" src="images/WhatsApp-icone.webp"/>
     </a>`;
 
     const strChat = `<div class="whatsapp-widget-chat" id="whatsapp-widget-chat">
